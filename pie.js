@@ -1,5 +1,5 @@
 
-d3.csv("/data/Kaggle_TwitterUSAirlineSentiment.csv").then( data => {
+d3.csv("data/Kaggle_TwitterUSAirlineSentiment.csv").then( data => {
 
     //    process data from csv into finalData I will use in my chart.
     //    create object of objects for each of the airlines and their positive/negative/neutral tweets
